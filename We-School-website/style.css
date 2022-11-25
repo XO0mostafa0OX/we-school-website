@@ -1,0 +1,111 @@
+@import <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin : 0 ;
+    padding: 0 ;
+    box-sizing : border-box ;
+    scroll-behavior : smooth ;
+}
+
+header{
+    background-color: beige;
+    width: calc(100% - 250px);
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    padding: 10px  200px ;
+
+}
+.logo{
+    text-decoration: none;
+    color: blue;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+    
+}
+
+.navigation a{
+    color: blue;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 500;
+    padding-left: 30px;
+
+} 
+
+.navigation a:hover{
+    color: rgb(21, 255, 0);
+
+} 
+
+section{
+    padding: 100px 200px;
+}
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(https://static.vecteezy.com/system/resources/previews/002/768/245/large_2x/we-logo-letter-initial-logo-designs-template-free-vector.jpg) no-repeat;
+    background-size:cover ;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+.main h2{
+    color: bLUE;
+    font-size: 1.4em;
+    font-weight: 500;
+}
+
+.main h2 span{
+    color: #4e9eff;
+    font-size: 3em;
+    font-weight: 700;
+    display: inline-block;
+    margin-top: 15px;
+
+}
+
+.main h3 {
+    color: brown;
+    font-size: 2em;
+    font-weight: 750;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.botton {
+    text-decoration: none;
+    letter-spacing: 1px;
+    margin-bottom: 40px;
+    background-color: blue;
+    color: beige;
+    font-size: 1.5em;
+    font-weight: 700;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    border-radius: 15px;
+    transition: 0.8s ease;
+}
+
+.botton:hover{
+    background-color: aqua;
+    transform: scale(1.1);
+    color:rgb(12, 8, 2);
+}
+
+.social_icons a{
+    color: bisque;
+    font-size: 1.7em;
+    padding-right: 30px;
+    
+}
